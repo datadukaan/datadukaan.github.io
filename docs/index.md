@@ -1,38 +1,96 @@
 ---
 hide: [navigation, toc]
+title: Data engineering, explained like a shop
 ---
 
-# Data Dukaan
+<div class="dd-hero" markdown>
+<div class="dd-hero-text" markdown>
+<span class="dd-eyebrow">100-day challenge · Day 1 is live</span>
 
-**100 days of data engineering system design, explained like a shop.**
+# Data engineering,<br><span class="dd-amber">explained like a shop.</span>
 
-Every app you use, from food delivery to UPI to the shows you're recommended, runs on data pipelines. Each day, Data Dukaan takes **one real problem** data engineers face, tells it as a simple story, and shows **how it's fixed**, with code you can run.
+Every app you use, from food delivery to UPI to the shows you're recommended, runs on data pipelines. Each day, **one real problem** data engineers face, told as a simple story, with the fix and **code you can run**.
 
-Watch the 60-second videos on [Instagram](https://instagram.com/datadukaan) and [YouTube Shorts](https://youtube.com/@datadukaan). Study the details here.
+<div class="dd-buttons" markdown>
+[Start with Day 1 →](days/day-01-late-arriving-data.md){ .md-button .md-button--primary }
+[Watch on Instagram](https://instagram.com/datadukaan){ .md-button }
+</div>
+</div>
+<div class="dd-hero-art"><img src="assets/logo.png" alt="Data Dukaan logo: a shop awning over rising sales bars"></div>
+</div>
+
+<div class="dd-progress" markdown>
+<div class="dd-progress-bar"><span style="width:1%"></span></div>
+<p><strong>1</strong> of 100 days published · new problem every day</p>
+</div>
+
+## How it works
+
+<div class="dd-grid3" markdown>
+<div class="dd-card" markdown>
+<span class="dd-num">1</span>
+### Watch 60 seconds
+A short story on Instagram or YouTube Shorts. No jargon, just a shop, a notebook and a problem.
+</div>
+<div class="dd-card" markdown>
+<span class="dd-num">2</span>
+### Read the real version
+The same problem in proper data engineering terms: why it happens, each fix, trade-offs and interview questions.
+</div>
+<div class="dd-card" markdown>
+<span class="dd-num">3</span>
+### Run the code
+PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change on your own laptop.
+</div>
+</div>
 
 ## Episodes
 
-| Day | Problem | The fixes | |
-|---|---|---|---|
-| 1 | **Late-arriving data**: why Raju's Sunday sales were wrong | Event time · Watermark · Reprocessing | [Read →](days/day-01-late-arriving-data.md) |
+<div class="dd-episodes" markdown>
+<a class="dd-ep" href="days/day-01-late-arriving-data/">
+  <span class="dd-ep-day">DAY 1</span>
+  <span class="dd-ep-title">Why Raju's sales were wrong</span>
+  <span class="dd-ep-sub">Late-arriving data</span>
+  <span class="dd-tags"><span>event time</span><span>watermark</span><span>reprocessing</span></span>
+</a>
+<div class="dd-ep dd-ep-soon">
+  <span class="dd-ep-day">DAY 2</span>
+  <span class="dd-ep-title">The order counted twice</span>
+  <span class="dd-ep-sub">Duplicates &amp; idempotency · coming soon</span>
+</div>
+<div class="dd-ep dd-ep-soon">
+  <span class="dd-ep-day">DAY 3</span>
+  <span class="dd-ep-title">Letters in the wrong order</span>
+  <span class="dd-ep-sub">Out-of-order events · coming soon</span>
+</div>
+</div>
 
-*New day, new problem. The full 100-day plan covers ingestion, storage, batch and streaming, reliability, data quality, modeling, cost, governance and end-to-end designs.*
+## The 100-day path
 
-## Who this is for
+<div class="dd-modules">
+  <div><b>1–10</b> How data arrives</div>
+  <div><b>11–20</b> Storing data</div>
+  <div><b>21–30</b> Big batch processing</div>
+  <div><b>31–40</b> Real-time streaming</div>
+  <div><b>41–50</b> Scheduling &amp; reliability</div>
+  <div><b>51–60</b> Data quality &amp; trust</div>
+  <div><b>61–70</b> Data modeling</div>
+  <div><b>71–80</b> Speed &amp; cost</div>
+  <div><b>81–90</b> Security &amp; governance</div>
+  <div><b>91–100</b> End-to-end designs</div>
+</div>
 
-- Students exploring data careers
-- Engineers switching into data engineering
-- Anyone preparing for data engineering interviews
-- Anyone curious how apps really work
+## Who it's for
 
-## Run the code
+<div class="dd-grid4">
+  <div class="dd-chip-card">🎓 Students exploring data careers</div>
+  <div class="dd-chip-card">🔁 Career switchers</div>
+  <div class="dd-chip-card">🎯 Interview preparation</div>
+  <div class="dd-chip-card">💡 Anyone curious how apps work</div>
+</div>
 
-Every day has runnable examples in [`code/`](https://github.com/datadukaan/datadukaan.github.io/tree/main/code), in PySpark, SQL and dbt, built on a tiny sample dataset so you can see the numbers change on your laptop.
-
-```bash
-git clone https://github.com/datadukaan/datadukaan.github.io.git
-cd datadukaan.github.io && pip install -r requirements.txt
-cd code/day-01-late-arriving-data && python 01_event_time_vs_arrival_time.py
-```
-
-*Made by Preetam, a senior data engineer in Mumbai. Examples are generic teaching material and don't reflect any employer's systems.*
+<div class="dd-about" markdown>
+**Made by Preetam**, a senior data engineer in Mumbai with 5+ years of building data pipelines for large financial companies.
+Follow along on [Instagram](https://instagram.com/datadukaan) and [YouTube](https://youtube.com/@datadukaan). All code is on [GitHub](https://github.com/datadukaan/datadukaan.github.io).
+<br><small>Examples are generic teaching material and don't reflect any employer's systems.</small>
+</div>
