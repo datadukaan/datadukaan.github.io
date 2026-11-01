@@ -1,0 +1,7 @@
+# Site
+mkdocs-material>=9.5
+# Code examples
+pyspark>=3.5
+pandas
+duckdb>=1.1
+dbt-duckdb>=1.8

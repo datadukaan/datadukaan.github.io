@@ -1,0 +1,6 @@
+:root { --md-primary-fg-color: #F2A541; --md-accent-fg-color: #4FC1B0; }
+[data-md-color-scheme="slate"] { --md-default-bg-color: #0F1317; --md-code-bg-color: #1A2129; }
+.md-header, .md-tabs { color: #14181D; }
+.dd-card { border: 1px solid #2C3540; border-radius: 14px; padding: 1rem 1.2rem; margin: .6rem 0; }
+.dd-fix { display: inline-block; font-family: var(--md-code-font-family); background: #4FC1B0; color: #14181D;
+          padding: .1rem .55rem; border-radius: 999px; font-size: .8rem; font-weight: 600; }

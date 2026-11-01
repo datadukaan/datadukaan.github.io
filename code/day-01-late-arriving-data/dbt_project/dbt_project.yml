@@ -1,0 +1,12 @@
+name: day01_late_arriving_data
+version: "1.0"
+profile: day01
+model-paths: ["models"]
+seed-paths: ["seeds"]
+vars:
+  as_of: "2026-10-27 23:59:59"   # pretend "now"; change it to replay different nights
+  lookback_days: 3
+seeds:
+  day01_late_arriving_data:
+    raw_orders:
+      +column_types: {order_id: integer, amount: bigint, event_time: timestamp, ingest_time: timestamp}

@@ -1,0 +1,7 @@
+site/
+__pycache__/
+*.duckdb
+**/dbt_project/target/
+**/dbt_project/logs/
+.venv/
+**/dbt_project/.user.yml

@@ -1,0 +1,44 @@
+site_name: Data Dukaan
+site_description: 100 days of data engineering system design, explained simply.
+site_url: https://datadukaan.github.io/
+repo_url: https://github.com/datadukaan/datadukaan.github.io
+repo_name: datadukaan/datadukaan.github.io
+edit_uri: ""
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - scheme: slate
+      primary: amber
+      accent: teal
+      toggle: {icon: material/weather-sunny, name: Light mode}
+    - scheme: default
+      primary: amber
+      accent: teal
+      toggle: {icon: material/weather-night, name: Dark mode}
+  font: {text: Inter, code: JetBrains Mono}
+  features: [navigation.instant, navigation.top, content.code.copy, content.tabs.link, toc.follow]
+extra_css: [assets/extra.css]
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed: {alternate_style: true}
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets: {base_path: ["code"], check_paths: true}
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - tables
+  - attr_list
+  - md_in_html
+nav:
+  - Home: index.md
+  - "Day 1 · Late-arriving data": days/day-01-late-arriving-data.md
+extra:
+  social:
+    - {icon: fontawesome/brands/instagram, link: "https://instagram.com/datadukaan", name: Instagram}
+    - {icon: fontawesome/brands/youtube, link: "https://youtube.com/@datadukaan", name: YouTube}
