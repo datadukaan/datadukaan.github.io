@@ -38,6 +38,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - "Day 1 · Late-arriving data": days/day-01-late-arriving-data.md
+  - "Day 2 · Duplicate data": days/day-02-duplicate-data.md
 extra:
   social:
     - {icon: fontawesome/brands/instagram, link: "https://instagram.com/datadukaan", name: Instagram}

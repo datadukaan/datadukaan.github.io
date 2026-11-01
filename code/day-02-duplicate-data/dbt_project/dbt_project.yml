@@ -1,0 +1,9 @@
+name: day02_duplicate_data
+version: "1.0"
+profile: day02
+model-paths: ["models"]
+seed-paths: ["seeds"]
+seeds:
+  day02_duplicate_data:
+    raw_messages:
+      +column_types: {message_id: varchar, order_id: integer, customer_id: varchar, amount: bigint, event_time: timestamp, received_at: timestamp}

@@ -168,4 +168,4 @@ python 03_reprocessing_merge.py           # Fix 3 + dead-letter
 
 ---
 
-*Watch the 60-second version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Next: Day 2.*
+*Watch the 60-second version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Next: [Day 2 · Duplicate data](day-02-duplicate-data.md).*
