@@ -170,4 +170,4 @@ python 03_idempotent_write.py   # Fix 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 1](day-01-late-arriving-data.md). Next: Day 3.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 1](day-01-late-arriving-data.md). Next: [Day 3 · Out-of-order data](day-03-out-of-order-data.md).*

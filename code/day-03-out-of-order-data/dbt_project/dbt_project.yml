@@ -1,0 +1,11 @@
+name: day03_out_of_order_data
+version: "1.0"
+profile: day03
+model-paths: ["models"]
+seed-paths: ["seeds"]
+vars:
+  received_until: "2026-11-03 23:59:59"   # pretend "now": only messages received by then exist
+seeds:
+  day03_out_of_order_data:
+    raw_order_messages:
+      +column_types: {message_id: varchar, order_id: integer, seq: integer, type: varchar, amount: integer, event_time: timestamp, received_at: timestamp}

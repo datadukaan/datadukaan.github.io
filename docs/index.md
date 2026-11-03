@@ -20,8 +20,8 @@ Every app you use, from food delivery to UPI to the shows you're recommended, ru
 </div>
 
 <div class="dd-progress" markdown>
-<div class="dd-progress-bar"><span style="width:2%"></span></div>
-<p><strong>2</strong> of 100 days published · new problem every day</p>
+<div class="dd-progress-bar"><span style="width:3%"></span></div>
+<p><strong>3</strong> of 100 days published · new problem every day</p>
 </div>
 
 ## How it works
@@ -59,11 +59,12 @@ PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change
   <span class="dd-ep-sub">Duplicate data</span>
   <span class="dd-tags"><span>unique ID</span><span>deduplication</span><span>idempotent write</span></span>
 </a>
-<div class="dd-ep dd-ep-soon">
+<a class="dd-ep" href="days/day-03-out-of-order-data/">
   <span class="dd-ep-day">DAY 3</span>
-  <span class="dd-ep-title">Letters in the wrong order</span>
-  <span class="dd-ep-sub">Out-of-order events · coming soon</span>
-</div>
+  <span class="dd-ep-title">Why Raju lost ₹300 on one order</span>
+  <span class="dd-ep-sub">Out-of-order data</span>
+  <span class="dd-tags"><span>event time</span><span>sequence number</span><span>latest version wins</span></span>
+</a>
 </div>
 
 ## The 100-day path
