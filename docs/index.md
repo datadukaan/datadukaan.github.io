@@ -20,8 +20,8 @@ Every app you use, from food delivery to UPI to the shows you're recommended, ru
 </div>
 
 <div class="dd-progress" markdown>
-<div class="dd-progress-bar"><span style="width:4%"></span></div>
-<p><strong>4</strong> of 100 days published · new problem every day</p>
+<div class="dd-progress-bar"><span style="width:5%"></span></div>
+<p><strong>5</strong> of 100 days published · new problem every day</p>
 </div>
 
 ## How it works
@@ -71,10 +71,16 @@ PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change
   <span class="dd-ep-sub">Incremental loads</span>
   <span class="dd-tags"><span>high-water mark</span><span>incremental load</span><span>lookback window</span></span>
 </a>
-<div class="dd-ep dd-ep-soon">
+<a class="dd-ep" href="days/day-05-change-data-capture/">
   <span class="dd-ep-day">DAY 5</span>
-  <span class="dd-ep-title">Copying only the edits</span>
-  <span class="dd-ep-sub">Change Data Capture · coming soon</span>
+  <span class="dd-ep-title">Why Raju lost ₹1,200 on one price</span>
+  <span class="dd-ep-sub">Change Data Capture</span>
+  <span class="dd-tags"><span>change log</span><span>CDC</span><span>checkpoint</span></span>
+</a>
+<div class="dd-ep dd-ep-soon">
+  <span class="dd-ep-day">DAY 6</span>
+  <span class="dd-ep-title">The cancelled order still on the bill</span>
+  <span class="dd-ep-sub">Soft deletes &amp; tombstones · coming soon</span>
 </div>
 </div>
 

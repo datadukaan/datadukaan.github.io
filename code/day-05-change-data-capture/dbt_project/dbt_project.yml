@@ -1,0 +1,13 @@
+name: day05_change_data_capture
+version: "1.0"
+profile: day05
+model-paths: ["models"]
+seed-paths: ["seeds"]
+vars:
+  up_to_lsn: 104      # replay the log only up to this position
+seeds:
+  day05_change_data_capture:
+    menu_snapshot:
+      +column_types: {item_id: integer, item: varchar, price: integer}
+    change_log:
+      +column_types: {lsn: integer, op: varchar, item_id: integer, item: varchar, price: integer, changed_at: timestamp}

@@ -123,7 +123,7 @@ Size it from data: measure how far behind the bookmark late rows land (commit ti
 | Small reference tables (countries, products) | Full reload is fine and simpler |
 | Large append-only data (events, logs) | Incremental on an ingestion timestamp or file arrival |
 | Large tables with updates | Incremental on `updated_at` + lookback + upsert (Fix 1 + 2 + 3) |
-| Source has a change log | Change Data Capture (Day 5, coming soon) |
+| Source has a change log | [Change Data Capture](day-05-change-data-capture.md) (Day 5) |
 | No change column at all | Full reload, or hash-compare rows to find changes |
 
 ## Interview questions
@@ -161,4 +161,4 @@ python 03_lookback_window.py    # Fix 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 3](day-03-out-of-order-data.md). Next: Day 5.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 3](day-03-out-of-order-data.md). Next: [Day 5 · Change Data Capture](day-05-change-data-capture.md).*

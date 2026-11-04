@@ -84,7 +84,7 @@ total: 2250
 | Arrival / processing time | Always available | Says nothing about which change is newer |
 | Event time | Meaningful to the business; needed for daily totals ([Day 1](day-01-late-arriving-data.md)) | Device clocks drift; two events can share a timestamp |
 | Sequence / version number | Exact order of changes to one record | Must be assigned by the source, per record |
-| Database log position (CDC LSN / offset) | Free and exact when reading a database's change log | Only exists for CDC sources (coming on Day 5) |
+| Database log position (CDC LSN / offset) | Free and exact when reading a database's change log | Only exists for CDC sources ([Day 5](day-05-change-data-capture.md)) |
 
 !!! tip "In practice"
     Use the sequence number to decide **which version wins**, and event time for **when it happened** (reporting, windows). Kafka keeps order only *within one partition*, so key messages by `order_id` to keep one order's changes together.

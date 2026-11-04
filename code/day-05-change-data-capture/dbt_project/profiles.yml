@@ -1,0 +1,6 @@
+day05:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: day05.duckdb
