@@ -1,0 +1,11 @@
+name: day04_incremental_loads
+version: "1.0"
+profile: day04
+model-paths: ["models"]
+seed-paths: ["seeds"]
+vars:
+  night: 2            # which night's source snapshot to read (1 = Tuesday, 2 = Wednesday)
+  lookback_hours: 1
+seeds:
+  day04_incremental_loads:
+    +column_types: {order_id: integer, amount: integer, created_at: timestamp, updated_at: timestamp}

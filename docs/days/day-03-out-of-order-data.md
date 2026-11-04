@@ -171,4 +171,4 @@ python 03_latest_version_wins.py   # Fix 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 2](day-02-duplicate-data.md). Next: Day 4.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 2](day-02-duplicate-data.md). Next: [Day 4 · Incremental loads](day-04-incremental-loads.md).*
