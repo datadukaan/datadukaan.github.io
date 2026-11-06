@@ -42,6 +42,7 @@ nav:
   - "Day 3 · Out-of-order data": days/day-03-out-of-order-data.md
   - "Day 4 · Incremental loads": days/day-04-incremental-loads.md
   - "Day 5 · Change Data Capture": days/day-05-change-data-capture.md
+  - "Day 6 · Soft deletes & tombstones": days/day-06-soft-deletes.md
 extra:
   social:
     - {icon: fontawesome/brands/instagram, link: "https://instagram.com/datadukaan", name: Instagram}

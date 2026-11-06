@@ -1,0 +1,10 @@
+name: day06_soft_deletes
+version: "1.0"
+profile: day06
+model-paths: ["models"]
+seed-paths: ["seeds"]
+vars:
+  night: 2
+seeds:
+  day06_soft_deletes:
+    +column_types: {order_id: integer, amount: integer, created_at: timestamp, updated_at: timestamp, is_deleted: boolean}

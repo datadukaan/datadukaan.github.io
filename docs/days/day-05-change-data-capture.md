@@ -137,7 +137,7 @@ Skip ahead and the delete of Vada is lost forever. Starting over works only beca
 | Large tables, hourly freshness, no deletes | Incremental on `updated_at` ([Day 4](day-04-incremental-loads.md)) |
 | Copies that must be current: search, cache, microservices | Log-based CDC + checkpoint |
 | Lakehouse ingestion of an OLTP database | CDC into bronze, MERGE into silver (Databricks `APPLY CHANGES`, Snowflake streams, ADF CDC) |
-| Hard deletes matter (finance, GDPR) | CDC, so `d` events reach every copy (more on Day 6) |
+| Hard deletes matter (finance, GDPR) | CDC, so `d` events reach every copy (more on [Day 6](day-06-soft-deletes.md)) |
 
 ## Interview questions
 
@@ -175,4 +175,4 @@ python 03_checkpoint.py          # Fix 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 4](day-04-incremental-loads.md). Next: Day 6.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 4](day-04-incremental-loads.md). Next: [Day 6 · Soft deletes & tombstones](day-06-soft-deletes.md).*

@@ -114,7 +114,7 @@ Size it from data: measure how far behind the bookmark late rows land (commit ti
 
 !!! warning "Two rules that keep incremental loads honest"
     1. **Move the bookmark only after the write succeeds.** If the job fails halfway, the next run starts from the old mark and redoes the work instead of skipping it.
-    2. **Deletes are invisible.** A deleted row has no `updated_at` to find. Use soft deletes or CDC (Days 5 and 6), or run a periodic full reconciliation.
+    2. **Deletes are invisible.** A deleted row has no `updated_at` to find. Use soft deletes or CDC ([Days 5](day-05-change-data-capture.md) and [6](day-06-soft-deletes.md)), or run a periodic full reconciliation.
 
 ## When to use what
 

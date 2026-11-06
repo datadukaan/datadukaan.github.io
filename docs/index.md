@@ -20,8 +20,8 @@ Every app you use, from food delivery to UPI to the shows you're recommended, ru
 </div>
 
 <div class="dd-progress" markdown>
-<div class="dd-progress-bar"><span style="width:5%"></span></div>
-<p><strong>5</strong> of 100 days published · new problem every day</p>
+<div class="dd-progress-bar"><span style="width:6%"></span></div>
+<p><strong>6</strong> of 100 days published · new problem every day</p>
 </div>
 
 ## How it works
@@ -77,10 +77,16 @@ PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change
   <span class="dd-ep-sub">Change Data Capture</span>
   <span class="dd-tags"><span>change log</span><span>CDC</span><span>checkpoint</span></span>
 </a>
-<div class="dd-ep dd-ep-soon">
+<a class="dd-ep" href="days/day-06-soft-deletes/">
   <span class="dd-ep-day">DAY 6</span>
-  <span class="dd-ep-title">The cancelled order still on the bill</span>
-  <span class="dd-ep-sub">Soft deletes &amp; tombstones · coming soon</span>
+  <span class="dd-ep-title">Why Raju paid tax on a cancelled order</span>
+  <span class="dd-ep-sub">Soft deletes &amp; tombstones</span>
+  <span class="dd-tags"><span>soft delete</span><span>tombstone</span><span>filtered view</span></span>
+</a>
+<div class="dd-ep dd-ep-soon">
+  <span class="dd-ep-day">DAY 7</span>
+  <span class="dd-ep-title">Queue at a single bank counter</span>
+  <span class="dd-ep-sub">Rate limits &amp; backoff · coming soon</span>
 </div>
 </div>
 
