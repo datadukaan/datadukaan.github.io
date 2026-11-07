@@ -171,4 +171,4 @@ python 04_filtered_view.py   # Fix 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 5](day-05-change-data-capture.md). Next: Day 7.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 5](day-05-change-data-capture.md). Next: [Day 7 · Rate limits & backoff](day-07-rate-limits.md).*
