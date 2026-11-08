@@ -184,4 +184,4 @@ No extra packages needed: the API is simulated in `supplier_api.py`.
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 6](day-06-soft-deletes.md). Next: Day 8.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 6](day-06-soft-deletes.md). Next: [Day 8 · Partial reads](day-08-partial-reads.md).*

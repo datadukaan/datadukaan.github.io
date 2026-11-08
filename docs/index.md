@@ -20,8 +20,8 @@ Every app you use, from food delivery to UPI to the shows you're recommended, ru
 </div>
 
 <div class="dd-progress" markdown>
-<div class="dd-progress-bar"><span style="width:7%"></span></div>
-<p><strong>7</strong> of 100 days published · new problem every day</p>
+<div class="dd-progress-bar"><span style="width:8%"></span></div>
+<p><strong>8</strong> of 100 days published · new problem every day</p>
 </div>
 
 ## How it works
@@ -89,10 +89,16 @@ PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change
   <span class="dd-ep-sub">Rate limits &amp; backoff</span>
   <span class="dd-tags"><span>rate limit</span><span>exponential backoff</span><span>pagination</span></span>
 </a>
-<div class="dd-ep dd-ep-soon">
+<a class="dd-ep" href="days/day-08-partial-reads/">
   <span class="dd-ep-day">DAY 8</span>
-  <span class="dd-ep-title">Eating a cake before it is baked</span>
-  <span class="dd-ep-sub">Atomic rename &amp; _SUCCESS markers · coming soon</span>
+  <span class="dd-ep-title">Why the Diwali boxes were empty</span>
+  <span class="dd-ep-sub">Partial reads</span>
+  <span class="dd-tags"><span>atomic rename</span><span>_SUCCESS</span><span>manifest</span></span>
+</a>
+<div class="dd-ep dd-ep-soon">
+  <span class="dd-ep-day">DAY 9</span>
+  <span class="dd-ep-title">A form that gains a new field</span>
+  <span class="dd-ep-sub">Schema evolution &amp; data contracts · coming soon</span>
 </div>
 </div>
 
