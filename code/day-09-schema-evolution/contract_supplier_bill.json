@@ -1,0 +1,13 @@
+{
+  "name": "supplier_bill",
+  "version": 1,
+  "owner": "supplier",
+  "consumers": ["raju-accounts"],
+  "columns": {
+    "item":  {"type": "string",  "required": true},
+    "qty":   {"type": "string",  "required": true},
+    "price": {"type": "integer", "required": true}
+  },
+  "allow_new_columns": true,
+  "breaking_changes": "rename, remove or retype a column: tell consumers first and bump the version"
+}

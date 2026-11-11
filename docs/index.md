@@ -20,8 +20,8 @@ Every app you use, from food delivery to UPI to the shows you're recommended, ru
 </div>
 
 <div class="dd-progress" markdown>
-<div class="dd-progress-bar"><span style="width:8%"></span></div>
-<p><strong>8</strong> of 100 days published · new problem every day</p>
+<div class="dd-progress-bar"><span style="width:9%"></span></div>
+<p><strong>9</strong> of 100 days published · new problem every day</p>
 </div>
 
 ## How it works
@@ -95,10 +95,16 @@ PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change
   <span class="dd-ep-sub">Partial reads</span>
   <span class="dd-tags"><span>atomic rename</span><span>_SUCCESS</span><span>manifest</span></span>
 </a>
-<div class="dd-ep dd-ep-soon">
+<a class="dd-ep" href="days/day-09-schema-evolution/">
   <span class="dd-ep-day">DAY 9</span>
-  <span class="dd-ep-title">A form that gains a new field</span>
-  <span class="dd-ep-sub">Schema evolution &amp; data contracts · coming soon</span>
+  <span class="dd-ep-title">Why Raju paid ₹1,800, not ₹18,000</span>
+  <span class="dd-ep-sub">Schema drift</span>
+  <span class="dd-tags"><span>read by name</span><span>schema evolution</span><span>data contract</span></span>
+</a>
+<div class="dd-ep dd-ep-soon">
+  <span class="dd-ep-day">DAY 10</span>
+  <span class="dd-ep-title">Postman delivering one letter per trip</span>
+  <span class="dd-ep-sub">File notifications &amp; micro-batching · coming soon</span>
 </div>
 </div>
 

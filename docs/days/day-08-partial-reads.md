@@ -161,6 +161,6 @@ python 04_manifest_check.py   # Fix 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 7](day-07-rate-limits.md). Next: Day 9.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 7](day-07-rate-limits.md). Next: [Day 9 · Schema drift](day-09-schema-evolution.md).*
 
 **Happy Diwali from Data Dukaan! 🪔**
