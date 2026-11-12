@@ -181,4 +181,4 @@ python 04_data_contract.py      # Fix 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 8](day-08-partial-reads.md). Next: Day 10.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 8](day-08-partial-reads.md). Next: [Day 10 · Small files](day-10-small-files.md).*

@@ -20,8 +20,8 @@ Every app you use, from food delivery to UPI to the shows you're recommended, ru
 </div>
 
 <div class="dd-progress" markdown>
-<div class="dd-progress-bar"><span style="width:9%"></span></div>
-<p><strong>9</strong> of 100 days published · new problem every day</p>
+<div class="dd-progress-bar"><span style="width:10%"></span></div>
+<p><strong>10</strong> of 100 days published · new problem every day</p>
 </div>
 
 ## How it works
@@ -101,10 +101,16 @@ PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change
   <span class="dd-ep-sub">Schema drift</span>
   <span class="dd-tags"><span>read by name</span><span>schema evolution</span><span>data contract</span></span>
 </a>
-<div class="dd-ep dd-ep-soon">
+<a class="dd-ep" href="days/day-10-small-files/">
   <span class="dd-ep-day">DAY 10</span>
-  <span class="dd-ep-title">Postman delivering one letter per trip</span>
-  <span class="dd-ep-sub">File notifications &amp; micro-batching · coming soon</span>
+  <span class="dd-ep-title">Why Raju's son ran 2,000 times</span>
+  <span class="dd-ep-sub">The small files problem</span>
+  <span class="dd-tags"><span>file notification</span><span>micro-batching</span><span>batch trigger</span></span>
+</a>
+<div class="dd-ep dd-ep-soon">
+  <span class="dd-ep-day">DAY 11</span>
+  <span class="dd-ep-title">Reading one column of a register</span>
+  <span class="dd-ep-sub">Columnar formats like Parquet · coming soon</span>
 </div>
 </div>
 
