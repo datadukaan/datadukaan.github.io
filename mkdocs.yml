@@ -47,6 +47,7 @@ nav:
   - "Day 8 · Partial reads": days/day-08-partial-reads.md
   - "Day 9 · Schema drift": days/day-09-schema-evolution.md
   - "Day 10 · Small files": days/day-10-small-files.md
+  - "Day 11 · Columnar formats": days/day-11-columnar-formats.md
 extra:
   social:
     - {icon: fontawesome/brands/instagram, link: "https://instagram.com/datadukaan", name: Instagram}

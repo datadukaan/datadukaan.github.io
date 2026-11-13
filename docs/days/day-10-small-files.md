@@ -166,6 +166,6 @@ python 04_batch_trigger.py         # Fix 3 (needs Java 17+ for PySpark)
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 9](day-09-schema-evolution.md). Next: Day 11.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 9](day-09-schema-evolution.md). Next: [Day 11 · Columnar formats](day-11-columnar-formats.md).*
 
 **🎉 Module 1 complete: how data arrives.** Next up, Module 2: storing data.
