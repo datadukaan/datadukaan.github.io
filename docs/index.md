@@ -20,8 +20,8 @@ Every app you use, from food delivery to UPI to the shows you're recommended, ru
 </div>
 
 <div class="dd-progress" markdown>
-<div class="dd-progress-bar"><span style="width:11%"></span></div>
-<p><strong>11</strong> of 100 days published · new problem every day</p>
+<div class="dd-progress-bar"><span style="width:12%"></span></div>
+<p><strong>12</strong> of 100 days published · new problem every day</p>
 </div>
 
 ## How it works
@@ -113,10 +113,16 @@ PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change
   <span class="dd-ep-sub">Columnar formats</span>
   <span class="dd-tags"><span>Parquet</span><span>compression</span><span>predicate pushdown</span></span>
 </a>
-<div class="dd-ep dd-ep-soon">
+<a class="dd-ep" href="days/day-12-compaction/">
   <span class="dd-ep-day">DAY 12</span>
-  <span class="dd-ep-title">coming soon</span>
-  <span class="dd-ep-sub">Module 2 · Storing data</span>
+  <span class="dd-ep-title">Why Raju lost a ₹2 lakh wedding order</span>
+  <span class="dd-ep-sub">Compaction</span>
+  <span class="dd-tags"><span>OPTIMIZE</span><span>optimized writes</span><span>auto compaction</span></span>
+</a>
+<div class="dd-ep dd-ep-soon">
+  <span class="dd-ep-day">DAY 13</span>
+  <span class="dd-ep-title">A cupboard with too many drawers</span>
+  <span class="dd-ep-sub">Partitioning · coming soon</span>
 </div>
 </div>
 

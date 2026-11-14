@@ -204,4 +204,4 @@ python 05_spark_parquet.py        # PySpark plan (needs Java 17+)
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 10](day-10-small-files.md). Next: Day 12.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 10](day-10-small-files.md). Next: [Day 12 · Compaction](day-12-compaction.md).*

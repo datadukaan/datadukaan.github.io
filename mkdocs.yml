@@ -48,6 +48,7 @@ nav:
   - "Day 9 · Schema drift": days/day-09-schema-evolution.md
   - "Day 10 · Small files": days/day-10-small-files.md
   - "Day 11 · Columnar formats": days/day-11-columnar-formats.md
+  - "Day 12 · Compaction": days/day-12-compaction.md
 extra:
   social:
     - {icon: fontawesome/brands/instagram, link: "https://instagram.com/datadukaan", name: Instagram}
