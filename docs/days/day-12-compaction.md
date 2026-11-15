@@ -170,4 +170,4 @@ python 04_auto_compaction.py      # Fix 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 11](day-11-columnar-formats.md). Next: Day 13.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 11](day-11-columnar-formats.md). Next: [Day 13 · Partitioning](day-13-partitioning.md).*

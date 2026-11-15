@@ -49,6 +49,7 @@ nav:
   - "Day 10 · Small files": days/day-10-small-files.md
   - "Day 11 · Columnar formats": days/day-11-columnar-formats.md
   - "Day 12 · Compaction": days/day-12-compaction.md
+  - "Day 13 · Partitioning": days/day-13-partitioning.md
 extra:
   social:
     - {icon: fontawesome/brands/instagram, link: "https://instagram.com/datadukaan", name: Instagram}
