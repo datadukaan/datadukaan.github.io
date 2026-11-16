@@ -167,4 +167,4 @@ python 04_clustering_small_table.py # Fix 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 12](day-12-compaction.md). Next: Day 14.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 12](day-12-compaction.md). Next: [Day 14 · Clustering & Z-ordering](day-14-clustering.md).*

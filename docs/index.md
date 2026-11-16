@@ -20,8 +20,8 @@ Every app you use, from food delivery to UPI to the shows you're recommended, ru
 </div>
 
 <div class="dd-progress" markdown>
-<div class="dd-progress-bar"><span style="width:13%"></span></div>
-<p><strong>13</strong> of 100 days published · new problem every day</p>
+<div class="dd-progress-bar"><span style="width:14%"></span></div>
+<p><strong>14</strong> of 100 days published · new problem every day</p>
 </div>
 
 ## How it works
@@ -125,10 +125,16 @@ PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change
   <span class="dd-ep-sub">Partitioning</span>
   <span class="dd-tags"><span>partition key</span><span>pruning</span><span>clustering</span></span>
 </a>
-<div class="dd-ep dd-ep-soon">
+<a class="dd-ep" href="days/day-14-clustering/">
   <span class="dd-ep-day">DAY 14</span>
-  <span class="dd-ep-title">Shelving library books by topic</span>
-  <span class="dd-ep-sub">Clustering & Z-ordering · coming soon</span>
+  <span class="dd-ep-title">Why Raju read 6,000 bills to find one customer</span>
+  <span class="dd-ep-sub">Clustering & Z-ordering</span>
+  <span class="dd-tags"><span>data skipping</span><span>clustering</span><span>Z-order</span></span>
+</a>
+<div class="dd-ep dd-ep-soon">
+  <span class="dd-ep-day">DAY 15</span>
+  <span class="dd-ep-title">Raw, washed and cooked vegetables</span>
+  <span class="dd-ep-sub">Medallion layers · coming soon</span>
 </div>
 </div>
 
