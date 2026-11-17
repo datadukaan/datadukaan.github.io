@@ -51,6 +51,7 @@ nav:
   - "Day 12 · Compaction": days/day-12-compaction.md
   - "Day 13 · Partitioning": days/day-13-partitioning.md
   - "Day 14 · Clustering & Z-ordering": days/day-14-clustering.md
+  - "Day 15 · Medallion architecture": days/day-15-medallion.md
 extra:
   social:
     - {icon: fontawesome/brands/instagram, link: "https://instagram.com/datadukaan", name: Instagram}

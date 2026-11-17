@@ -174,4 +174,4 @@ python 04_z_ordering.py       # Fix 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 13](day-13-partitioning.md). Next: Day 15.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 13](day-13-partitioning.md). Next: [Day 15 · Medallion architecture](day-15-medallion.md).*
