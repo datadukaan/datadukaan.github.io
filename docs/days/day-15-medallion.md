@@ -180,4 +180,4 @@ python 05_replay_from_bronze.py  # fix a bug by replaying
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 14](day-14-clustering.md). Next: Day 16.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 14](day-14-clustering.md). Next: [Day 16 · ACID table formats](day-16-acid-tables.md).*
