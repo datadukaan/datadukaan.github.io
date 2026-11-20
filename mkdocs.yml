@@ -53,6 +53,7 @@ nav:
   - "Day 14 · Clustering & Z-ordering": days/day-14-clustering.md
   - "Day 15 · Medallion architecture": days/day-15-medallion.md
   - "Day 16 · ACID table formats": days/day-16-acid-tables.md
+  - "Day 17 · Time travel": days/day-17-time-travel.md
 extra:
   social:
     - {icon: fontawesome/brands/instagram, link: "https://instagram.com/datadukaan", name: Instagram}

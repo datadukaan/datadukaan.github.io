@@ -20,8 +20,8 @@ Every app you use, from food delivery to UPI to the shows you're recommended, ru
 </div>
 
 <div class="dd-progress" markdown>
-<div class="dd-progress-bar"><span style="width:16%"></span></div>
-<p><strong>16</strong> of 100 days published · new problem every day</p>
+<div class="dd-progress-bar"><span style="width:17%"></span></div>
+<p><strong>17</strong> of 100 days published · new problem every day</p>
 </div>
 
 ## How it works
@@ -143,10 +143,16 @@ PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change
   <span class="dd-ep-sub">ACID table formats</span>
   <span class="dd-tags"><span>atomic commit</span><span>optimistic concurrency</span><span>snapshot isolation</span></span>
 </a>
-<div class="dd-ep dd-ep-soon">
+<a class="dd-ep" href="days/day-17-time-travel/">
   <span class="dd-ep-day">DAY 17</span>
-  <span class="dd-ep-title">Undo history in a document</span>
-  <span class="dd-ep-sub">Time travel · coming soon</span>
+  <span class="dd-ep-title">One wrong UPDATE, 6 months gone</span>
+  <span class="dd-ep-sub">Time travel</span>
+  <span class="dd-tags"><span>history</span><span>time travel</span><span>restore</span></span>
+</a>
+<div class="dd-ep dd-ep-soon">
+  <span class="dd-ep-day">DAY 18</span>
+  <span class="dd-ep-title">Moving old files to the attic</span>
+  <span class="dd-ep-sub">Retention & VACUUM · coming soon</span>
 </div>
 </div>
 

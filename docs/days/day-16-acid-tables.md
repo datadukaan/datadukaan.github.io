@@ -187,4 +187,4 @@ python 05_duckdb_transactions.py     # a real engine
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 15](day-15-medallion.md). Next: Day 17.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 15](day-15-medallion.md). Next: [Day 17 · Time travel](day-17-time-travel.md).*
