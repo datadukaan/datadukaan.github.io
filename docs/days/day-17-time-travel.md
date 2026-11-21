@@ -178,4 +178,4 @@ python 04_restore.py                   # Fix 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 16](day-16-acid-tables.md). Next: Day 18.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 16](day-16-acid-tables.md). Next: [Day 18 · Retention & VACUUM](day-18-retention-vacuum.md).*
