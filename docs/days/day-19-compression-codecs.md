@@ -53,7 +53,7 @@ gzip            8.4   2.6x    17.53       67
 lz4            13.7   1.6x     0.20       63
 zstd-1          7.5   2.9x     0.29       59
 zstd-3          7.5   2.9x     0.25       57
-zstd-9          7.5   2.9x     0.58       58
+zstd-9          7.5   2.9x     0.55       58
 ```
 
 The real "taped carton" here is **gzip**: 90× slower to write than snappy. ZSTD is nearly half the size of snappy, and on this data it costs only a few milliseconds more to read.
