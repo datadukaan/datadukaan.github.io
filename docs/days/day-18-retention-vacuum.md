@@ -179,4 +179,4 @@ python 04_cold_tiering.py      # Move 3
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 17](day-17-time-travel.md). Next: Day 19.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 17](day-17-time-travel.md). Next: [Day 19 · Snappy vs ZSTD](day-19-compression-codecs.md).*

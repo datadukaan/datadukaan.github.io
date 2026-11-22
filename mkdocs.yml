@@ -55,6 +55,7 @@ nav:
   - "Day 16 · ACID table formats": days/day-16-acid-tables.md
   - "Day 17 · Time travel": days/day-17-time-travel.md
   - "Day 18 · Retention & VACUUM": days/day-18-retention-vacuum.md
+  - "Day 19 · Snappy vs ZSTD": days/day-19-compression-codecs.md
 extra:
   social:
     - {icon: fontawesome/brands/instagram, link: "https://instagram.com/datadukaan", name: Instagram}
