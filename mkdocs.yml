@@ -56,6 +56,7 @@ nav:
   - "Day 17 · Time travel": days/day-17-time-travel.md
   - "Day 18 · Retention & VACUUM": days/day-18-retention-vacuum.md
   - "Day 19 · Snappy vs ZSTD": days/day-19-compression-codecs.md
+  - "Day 20 · Delta vs Iceberg vs Hudi": days/day-20-table-formats.md
 extra:
   social:
     - {icon: fontawesome/brands/instagram, link: "https://instagram.com/datadukaan", name: Instagram}

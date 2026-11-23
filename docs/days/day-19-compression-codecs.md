@@ -162,4 +162,4 @@ python 03_cold_storage_cost.py   # Fix 2: cold storage cost
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 18](day-18-retention-vacuum.md). Next: Day 20.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 18](day-18-retention-vacuum.md). Next: [Day 20](day-20-table-formats.md).*

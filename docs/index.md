@@ -20,8 +20,8 @@ Every app you use, from food delivery to UPI to the shows you're recommended, ru
 </div>
 
 <div class="dd-progress" markdown>
-<div class="dd-progress-bar"><span style="width:19%"></span></div>
-<p><strong>19</strong> of 100 days published · new problem every day</p>
+<div class="dd-progress-bar"><span style="width:20%"></span></div>
+<p><strong>20</strong> of 100 days published · new problem every day</p>
 </div>
 
 ## How it works
@@ -161,10 +161,16 @@ PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change
   <span class="dd-ep-sub">Snappy vs ZSTD</span>
   <span class="dd-tags"><span>Snappy</span><span>ZSTD</span><span>benchmark</span></span>
 </a>
-<div class="dd-ep dd-ep-soon">
+<a class="dd-ep" href="days/day-20-table-formats/">
   <span class="dd-ep-day">DAY 20</span>
-  <span class="dd-ep-title">Choosing a phone OS</span>
-  <span class="dd-ep-sub">Delta vs Iceberg vs Hudi · coming soon</span>
+  <span class="dd-ep-title">Bought the "best", nothing talks to it</span>
+  <span class="dd-ep-sub">Delta vs Iceberg vs Hudi</span>
+  <span class="dd-tags"><span>Delta Lake</span><span>Iceberg</span><span>Hudi</span></span>
+</a>
+<div class="dd-ep dd-ep-soon">
+  <span class="dd-ep-day">DAY 21</span>
+  <span class="dd-ep-title">Splitting exam papers among teachers</span>
+  <span class="dd-ep-sub">Distributed processing (Spark) · coming soon</span>
 </div>
 </div>
 

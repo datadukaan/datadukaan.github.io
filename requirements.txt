@@ -6,3 +6,5 @@ pandas
 pyarrow>=15
 duckdb>=1.1
 dbt-duckdb>=1.8
+deltalake>=0.25
+pyiceberg[sql-sqlite]>=0.9
