@@ -1,3 +1,8 @@
+---
+day: 12
+module: "Storing data"
+topic: "Compaction"
+---
 # Day 12 · Compaction
 
 !!! abstract "In one line"

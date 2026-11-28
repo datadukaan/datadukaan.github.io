@@ -1,3 +1,8 @@
+---
+day: 16
+module: "Storing data"
+topic: "ACID table formats"
+---
 # Day 16 · ACID table formats
 
 !!! abstract "In one line"

@@ -1,3 +1,8 @@
+---
+day: 1
+module: "How data arrives"
+topic: "Late-arriving data"
+---
 # Day 1 · Late-arriving data
 
 !!! abstract "In one line"

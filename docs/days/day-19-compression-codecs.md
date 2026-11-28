@@ -1,3 +1,8 @@
+---
+day: 19
+module: "Storing data"
+topic: "Snappy vs ZSTD"
+---
 # Day 19 · Snappy vs ZSTD
 
 !!! abstract "In one line"

@@ -1,3 +1,8 @@
+---
+day: 7
+module: "How data arrives"
+topic: "Rate limits & backoff"
+---
 # Day 7 · Rate limits & backoff
 
 !!! abstract "In one line"

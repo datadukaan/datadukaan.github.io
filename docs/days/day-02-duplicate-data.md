@@ -1,3 +1,8 @@
+---
+day: 2
+module: "How data arrives"
+topic: "Duplicate data"
+---
 # Day 2 · Duplicate data
 
 !!! abstract "In one line"

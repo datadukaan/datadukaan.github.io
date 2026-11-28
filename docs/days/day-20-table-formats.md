@@ -1,3 +1,8 @@
+---
+day: 20
+module: "Storing data"
+topic: "Delta vs Iceberg vs Hudi"
+---
 # Day 20 · Delta vs Iceberg vs Hudi
 
 !!! abstract "In one line"
@@ -227,4 +232,4 @@ python 04_update_churn.py     # Fix 3: why update-heavy tables need MOR
 
 ---
 
-*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 19](day-19-compression-codecs.md). Next: Day 21.*
+*Watch the short version on [Instagram](https://instagram.com/datadukaan) or [YouTube](https://youtube.com/@datadukaan). Previous: [Day 19](day-19-compression-codecs.md). Next: [Day 21](day-21-distributed-processing.md).*

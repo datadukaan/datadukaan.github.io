@@ -1,3 +1,8 @@
+---
+day: 9
+module: "How data arrives"
+topic: "Schema drift"
+---
 # Day 9 · Schema drift
 
 !!! abstract "In one line"

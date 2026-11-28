@@ -1,3 +1,8 @@
+---
+day: 5
+module: "How data arrives"
+topic: "Change Data Capture"
+---
 # Day 5 · Change Data Capture
 
 !!! abstract "In one line"

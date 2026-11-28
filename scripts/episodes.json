@@ -1,0 +1,253 @@
+{
+ "modules": [
+  "How data arrives",
+  "Storing data",
+  "Big batch processing",
+  "Real-time streaming",
+  "Scheduling & reliability",
+  "Data quality & trust",
+  "Data modeling",
+  "Speed & cost",
+  "Security & governance",
+  "End-to-end designs"
+ ],
+ "episodes": [
+  {
+   "day": 1,
+   "slug": "day-01-late-arriving-data",
+   "title": "Why Raju's sales were wrong",
+   "topic": "Late-arriving data",
+   "tags": [
+    "event time",
+    "watermark",
+    "reprocessing"
+   ]
+  },
+  {
+   "day": 2,
+   "slug": "day-02-duplicate-data",
+   "title": "Why Raju's sales were too high",
+   "topic": "Duplicate data",
+   "tags": [
+    "unique ID",
+    "deduplication",
+    "idempotent write"
+   ]
+  },
+  {
+   "day": 3,
+   "slug": "day-03-out-of-order-data",
+   "title": "Why Raju lost ₹300 on one order",
+   "topic": "Out-of-order data",
+   "tags": [
+    "event time",
+    "sequence number",
+    "latest version wins"
+   ]
+  },
+  {
+   "day": 4,
+   "slug": "day-04-incremental-loads",
+   "title": "Why Raju's shop opened late",
+   "topic": "Incremental loads",
+   "tags": [
+    "high-water mark",
+    "incremental load",
+    "lookback window"
+   ]
+  },
+  {
+   "day": 5,
+   "slug": "day-05-change-data-capture",
+   "title": "Why Raju lost ₹1,200 on one price",
+   "topic": "Change Data Capture",
+   "tags": [
+    "change log",
+    "CDC",
+    "checkpoint"
+   ]
+  },
+  {
+   "day": 6,
+   "slug": "day-06-soft-deletes",
+   "title": "Why Raju paid tax on a cancelled order",
+   "topic": "Soft deletes & tombstones",
+   "tags": [
+    "soft delete",
+    "tombstone",
+    "filtered view"
+   ]
+  },
+  {
+   "day": 7,
+   "slug": "day-07-rate-limits",
+   "title": "Why Raju lost a ₹50,000 order",
+   "topic": "Rate limits & backoff",
+   "tags": [
+    "rate limit",
+    "exponential backoff",
+    "pagination"
+   ]
+  },
+  {
+   "day": 8,
+   "slug": "day-08-partial-reads",
+   "title": "Why the Diwali boxes were empty",
+   "topic": "Partial reads",
+   "tags": [
+    "atomic rename",
+    "_SUCCESS",
+    "manifest"
+   ]
+  },
+  {
+   "day": 9,
+   "slug": "day-09-schema-evolution",
+   "title": "Why Raju paid ₹1,800, not ₹18,000",
+   "topic": "Schema drift",
+   "tags": [
+    "read by name",
+    "schema evolution",
+    "data contract"
+   ]
+  },
+  {
+   "day": 10,
+   "slug": "day-10-small-files",
+   "title": "Why Raju's son ran 2,000 times",
+   "topic": "The small files problem",
+   "tags": [
+    "file notification",
+    "micro-batching",
+    "batch trigger"
+   ]
+  },
+  {
+   "day": 11,
+   "slug": "day-11-columnar-formats",
+   "title": "Why Raju read 10,000 bills for 1 column",
+   "topic": "Columnar formats",
+   "tags": [
+    "Parquet",
+    "compression",
+    "predicate pushdown"
+   ]
+  },
+  {
+   "day": 12,
+   "slug": "day-12-compaction",
+   "title": "Why Raju lost a ₹2 lakh wedding order",
+   "topic": "Compaction",
+   "tags": [
+    "OPTIMIZE",
+    "optimized writes",
+    "auto compaction"
+   ]
+  },
+  {
+   "day": 13,
+   "slug": "day-13-partitioning",
+   "title": "Why Raju needed 10,000 drawers for sugar",
+   "topic": "Partitioning",
+   "tags": [
+    "partition key",
+    "pruning",
+    "clustering"
+   ]
+  },
+  {
+   "day": 14,
+   "slug": "day-14-clustering",
+   "title": "Why Raju read 6,000 bills to find one customer",
+   "topic": "Clustering & Z-ordering",
+   "tags": [
+    "data skipping",
+    "clustering",
+    "Z-order"
+   ]
+  },
+  {
+   "day": 15,
+   "slug": "day-15-medallion",
+   "title": "Data swamp: 500 kg on screen, 50 in stock",
+   "topic": "Medallion architecture",
+   "tags": [
+    "bronze",
+    "silver",
+    "gold"
+   ]
+  },
+  {
+   "day": 16,
+   "slug": "day-16-acid-tables",
+   "title": "Paisa kat gaya, ticket nahi mila",
+   "topic": "ACID table formats",
+   "tags": [
+    "atomic commit",
+    "optimistic concurrency",
+    "snapshot isolation"
+   ]
+  },
+  {
+   "day": 17,
+   "slug": "day-17-time-travel",
+   "title": "One wrong UPDATE, 6 months gone",
+   "topic": "Time travel",
+   "tags": [
+    "history",
+    "time travel",
+    "restore"
+   ]
+  },
+  {
+   "day": 18,
+   "slug": "day-18-retention-vacuum",
+   "title": "₹15,000 a month, for garbage",
+   "topic": "Retention & VACUUM",
+   "tags": [
+    "VACUUM",
+    "retention",
+    "cold tier"
+   ]
+  },
+  {
+   "day": 19,
+   "slug": "day-19-compression-codecs",
+   "title": "Stock right there, couldn't sell it",
+   "topic": "Snappy vs ZSTD",
+   "tags": [
+    "Snappy",
+    "ZSTD",
+    "benchmark"
+   ]
+  },
+  {
+   "day": 20,
+   "slug": "day-20-table-formats",
+   "title": "Bought the \"best\", nothing talks to it",
+   "topic": "Delta vs Iceberg vs Hudi",
+   "tags": [
+    "Delta Lake",
+    "Iceberg",
+    "Hudi"
+   ]
+  },
+  {
+   "day": 21,
+   "slug": "day-21-distributed-processing",
+   "title": "\"Buy a bigger machine?\" Rejected.",
+   "topic": "Distributed processing (Spark)",
+   "tags": [
+    "partitions",
+    "driver",
+    "executors",
+    "shuffle"
+   ]
+  }
+ ],
+ "next": {
+  "day": 22,
+  "title": "One worker gets most of the work",
+  "topic": "Data skew: salting and AQE"
+ }
+}

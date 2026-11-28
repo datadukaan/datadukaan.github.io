@@ -1,3 +1,8 @@
+---
+day: 13
+module: "Storing data"
+topic: "Partitioning"
+---
 # Day 13 · Partitioning
 
 !!! abstract "In one line"

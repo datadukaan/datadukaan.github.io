@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block announce %}
+<a class="dd-announce" href="{{ config.site_url }}{{ config.extra.latest.url }}">
+  New today: Day {{ config.extra.latest.day }}, {{ config.extra.latest.topic }}. Read it here.
+</a>
+{% endblock %}
+
+{% block content %}
+{% if page.meta and page.meta.day %}
+<div class="dd-strip" data-day="{{ page.meta.day }}">
+  <div class="dd-strip-where">
+    <span class="dd-strip-day">Day {{ page.meta.day }} <span>of 100</span></span>
+    <span class="dd-strip-module">{{ page.meta.module }}</span>
+  </div>
+  <div class="dd-strip-meter" aria-hidden="true"><span style="width: {{ page.meta.day }}%"></span></div>
+  <div class="dd-strip-actions">
+    <a class="dd-strip-link" href="https://instagram.com/datadukaan">Watch the reel</a>
+    <button class="dd-done" type="button" aria-pressed="false" data-day="{{ page.meta.day }}">
+      <span class="dd-done-box" aria-hidden="true"></span><span class="dd-done-label">Mark as read</span>
+    </button>
+  </div>
+</div>
+{% endif %}
+{{ super() }}
+{% if page.meta and page.meta.day %}
+<div class="dd-finish">
+  <p><strong>Done with Day {{ page.meta.day }}?</strong> Mark it as read so the home page can track your progress.</p>
+  <button class="dd-done" type="button" aria-pressed="false" data-day="{{ page.meta.day }}">
+    <span class="dd-done-box" aria-hidden="true"></span><span class="dd-done-label">Mark as read</span>
+  </button>
+</div>
+{% endif %}
+{% endblock %}

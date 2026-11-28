@@ -1,3 +1,8 @@
+---
+day: 11
+module: "Storing data"
+topic: "Columnar formats"
+---
 # Day 11 · Columnar formats
 
 !!! abstract "In one line"

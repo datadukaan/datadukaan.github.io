@@ -1,3 +1,8 @@
+---
+day: 18
+module: "Storing data"
+topic: "Retention & VACUUM"
+---
 # Day 18 · Retention, VACUUM & cold tiers
 
 !!! abstract "In one line"

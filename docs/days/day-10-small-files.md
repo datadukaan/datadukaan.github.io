@@ -1,3 +1,8 @@
+---
+day: 10
+module: "How data arrives"
+topic: "The small files problem"
+---
 # Day 10 · The small files problem
 
 !!! abstract "In one line"

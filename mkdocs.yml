@@ -6,20 +6,23 @@ repo_name: datadukaan/datadukaan.github.io
 edit_uri: ""
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/logo.png
   favicon: assets/logo.png
   palette:
     - scheme: slate
-      primary: amber
-      accent: teal
-      toggle: {icon: material/weather-sunny, name: Light mode}
+      primary: custom
+      accent: custom
+      toggle: {icon: material/weather-sunny, name: Switch to light mode}
     - scheme: default
-      primary: amber
-      accent: teal
-      toggle: {icon: material/weather-night, name: Dark mode}
-  font: {text: Inter, code: JetBrains Mono}
-  features: [navigation.instant, navigation.top, content.code.copy, content.tabs.link, toc.follow]
+      primary: custom
+      accent: custom
+      toggle: {icon: material/weather-night, name: Switch to dark mode}
+  font: {text: Atkinson Hyperlegible, code: JetBrains Mono}
+  features: [navigation.instant, navigation.instant.progress, navigation.tracking, navigation.top, navigation.footer,
+             search.suggest, search.highlight, content.code.copy, content.tabs.link, toc.follow, announce.dismiss]
 extra_css: [assets/extra.css]
+extra_javascript: [assets/dd.js]
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -37,27 +40,32 @@ markdown_extensions:
   - md_in_html
 nav:
   - Home: index.md
-  - "Day 1 · Late-arriving data": days/day-01-late-arriving-data.md
-  - "Day 2 · Duplicate data": days/day-02-duplicate-data.md
-  - "Day 3 · Out-of-order data": days/day-03-out-of-order-data.md
-  - "Day 4 · Incremental loads": days/day-04-incremental-loads.md
-  - "Day 5 · Change Data Capture": days/day-05-change-data-capture.md
-  - "Day 6 · Soft deletes & tombstones": days/day-06-soft-deletes.md
-  - "Day 7 · Rate limits & backoff": days/day-07-rate-limits.md
-  - "Day 8 · Partial reads": days/day-08-partial-reads.md
-  - "Day 9 · Schema drift": days/day-09-schema-evolution.md
-  - "Day 10 · Small files": days/day-10-small-files.md
-  - "Day 11 · Columnar formats": days/day-11-columnar-formats.md
-  - "Day 12 · Compaction": days/day-12-compaction.md
-  - "Day 13 · Partitioning": days/day-13-partitioning.md
-  - "Day 14 · Clustering & Z-ordering": days/day-14-clustering.md
-  - "Day 15 · Medallion architecture": days/day-15-medallion.md
-  - "Day 16 · ACID table formats": days/day-16-acid-tables.md
-  - "Day 17 · Time travel": days/day-17-time-travel.md
-  - "Day 18 · Retention & VACUUM": days/day-18-retention-vacuum.md
-  - "Day 19 · Snappy vs ZSTD": days/day-19-compression-codecs.md
-  - "Day 20 · Delta vs Iceberg vs Hudi": days/day-20-table-formats.md
+  - "How data arrives":
+    - "Day 1: Late-arriving data": days/day-01-late-arriving-data.md
+    - "Day 2: Duplicate data": days/day-02-duplicate-data.md
+    - "Day 3: Out-of-order data": days/day-03-out-of-order-data.md
+    - "Day 4: Incremental loads": days/day-04-incremental-loads.md
+    - "Day 5: Change Data Capture": days/day-05-change-data-capture.md
+    - "Day 6: Soft deletes & tombstones": days/day-06-soft-deletes.md
+    - "Day 7: Rate limits & backoff": days/day-07-rate-limits.md
+    - "Day 8: Partial reads": days/day-08-partial-reads.md
+    - "Day 9: Schema drift": days/day-09-schema-evolution.md
+    - "Day 10: The small files problem": days/day-10-small-files.md
+  - "Storing data":
+    - "Day 11: Columnar formats": days/day-11-columnar-formats.md
+    - "Day 12: Compaction": days/day-12-compaction.md
+    - "Day 13: Partitioning": days/day-13-partitioning.md
+    - "Day 14: Clustering & Z-ordering": days/day-14-clustering.md
+    - "Day 15: Medallion architecture": days/day-15-medallion.md
+    - "Day 16: ACID table formats": days/day-16-acid-tables.md
+    - "Day 17: Time travel": days/day-17-time-travel.md
+    - "Day 18: Retention & VACUUM": days/day-18-retention-vacuum.md
+    - "Day 19: Snappy vs ZSTD": days/day-19-compression-codecs.md
+    - "Day 20: Delta vs Iceberg vs Hudi": days/day-20-table-formats.md
+  - "Big batch processing":
+    - "Day 21: Distributed processing (Spark)": days/day-21-distributed-processing.md
 extra:
+  latest: {day: 21, topic: "Distributed processing (Spark)", url: "days/day-21-distributed-processing/"}
   social:
     - {icon: fontawesome/brands/instagram, link: "https://instagram.com/datadukaan", name: Instagram}
     - {icon: fontawesome/brands/youtube, link: "https://youtube.com/@datadukaan", name: YouTube}

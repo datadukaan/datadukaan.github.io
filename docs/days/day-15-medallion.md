@@ -1,3 +1,8 @@
+---
+day: 15
+module: "Storing data"
+topic: "Medallion architecture"
+---
 # Day 15 · Medallion architecture
 
 !!! abstract "In one line"

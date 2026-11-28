@@ -1,3 +1,8 @@
+---
+day: 6
+module: "How data arrives"
+topic: "Soft deletes & tombstones"
+---
 # Day 6 · Soft deletes & tombstones
 
 !!! abstract "In one line"

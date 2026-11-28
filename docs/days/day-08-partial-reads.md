@@ -1,3 +1,8 @@
+---
+day: 8
+module: "How data arrives"
+topic: "Partial reads"
+---
 # Day 8 · Partial reads
 
 !!! abstract "In one line"

@@ -1,3 +1,8 @@
+---
+day: 4
+module: "How data arrives"
+topic: "Incremental loads"
+---
 # Day 4 · Incremental loads
 
 !!! abstract "In one line"

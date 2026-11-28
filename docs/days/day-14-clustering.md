@@ -1,3 +1,8 @@
+---
+day: 14
+module: "Storing data"
+topic: "Clustering & Z-ordering"
+---
 # Day 14 · Clustering, Z-ordering & data skipping
 
 !!! abstract "In one line"

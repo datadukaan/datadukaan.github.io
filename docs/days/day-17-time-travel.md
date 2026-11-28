@@ -1,3 +1,8 @@
+---
+day: 17
+module: "Storing data"
+topic: "Time travel"
+---
 # Day 17 · Time travel & table versions
 
 !!! abstract "In one line"

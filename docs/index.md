@@ -1,205 +1,110 @@
 ---
-hide: [navigation, toc]
+hide: [navigation, toc, footer]
 title: Data engineering, explained like a shop
 ---
 
-<div class="dd-hero" markdown>
-<div class="dd-hero-text" markdown>
-<span class="dd-eyebrow">100-day challenge · Day 1 is live</span>
+<div class="dd-awning" aria-hidden="true"></div>
 
-# Data engineering,<br><span class="dd-amber">explained like a shop.</span>
-
-Every app you use, from food delivery to UPI to the shows you're recommended, runs on data pipelines. Each day, **one real problem** data engineers face, told as a simple story, with the fix and **code you can run**.
-
-<div class="dd-buttons" markdown>
-[Start with Day 1 →](days/day-01-late-arriving-data.md){ .md-button .md-button--primary }
-[Watch on Instagram](https://instagram.com/datadukaan){ .md-button }
+<div class="dd-hero">
+<div class="dd-hero-text">
+<h1>Data engineering, explained like a shop.</h1>
+<p class="dd-lede">Every app you use, from food delivery to UPI, runs on data pipelines. Each day you get one real problem data engineers face, told as a short story about Raju's shop, then the proper fix with code you can run.</p>
+<div class="dd-buttons">
+<a class="md-button md-button--primary" href="days/day-01-late-arriving-data/">Start from Day 1</a>
+<a class="md-button" href="#episodes">Browse all episodes</a>
 </div>
 </div>
-<div class="dd-hero-art"><img src="assets/logo.png" alt="Data Dukaan logo: a shop awning over rising sales bars"></div>
+<a class="dd-today" href="days/day-21-distributed-processing/">
+<span class="dd-today-label">New today · Day 21</span>
+<span class="dd-today-title">&quot;Buy a bigger machine?&quot; Rejected.</span>
+<span class="dd-today-topic">Distributed processing (Spark)</span>
+<span class="dd-today-cta">Read the notes and run the code</span>
+</a>
 </div>
 
-<div class="dd-progress" markdown>
-<div class="dd-progress-bar"><span style="width:20%"></span></div>
-<p><strong>20</strong> of 100 days published · new problem every day</p>
+<div class="dd-shelf-wrap">
+<p class="dd-shelf-caption"><strong>21 of 100</strong> days out<span class="dd-read-count" hidden></span>. Each box is a day; tap one to open it.</p>
+<div class="dd-shelf"><span class="dd-shelf-group"><a class="dd-box is-live" href="days/day-01-late-arriving-data/" data-day="1" style="--i:1" title="Day 1: Late-arriving data" aria-label="Day 1: Late-arriving data"></a><a class="dd-box is-live" href="days/day-02-duplicate-data/" data-day="2" style="--i:2" title="Day 2: Duplicate data" aria-label="Day 2: Duplicate data"></a><a class="dd-box is-live" href="days/day-03-out-of-order-data/" data-day="3" style="--i:3" title="Day 3: Out-of-order data" aria-label="Day 3: Out-of-order data"></a><a class="dd-box is-live" href="days/day-04-incremental-loads/" data-day="4" style="--i:4" title="Day 4: Incremental loads" aria-label="Day 4: Incremental loads"></a><a class="dd-box is-live" href="days/day-05-change-data-capture/" data-day="5" style="--i:5" title="Day 5: Change Data Capture" aria-label="Day 5: Change Data Capture"></a><a class="dd-box is-live" href="days/day-06-soft-deletes/" data-day="6" style="--i:6" title="Day 6: Soft deletes &amp; tombstones" aria-label="Day 6: Soft deletes &amp; tombstones"></a><a class="dd-box is-live" href="days/day-07-rate-limits/" data-day="7" style="--i:7" title="Day 7: Rate limits &amp; backoff" aria-label="Day 7: Rate limits &amp; backoff"></a><a class="dd-box is-live" href="days/day-08-partial-reads/" data-day="8" style="--i:8" title="Day 8: Partial reads" aria-label="Day 8: Partial reads"></a><a class="dd-box is-live" href="days/day-09-schema-evolution/" data-day="9" style="--i:9" title="Day 9: Schema drift" aria-label="Day 9: Schema drift"></a><a class="dd-box is-live" href="days/day-10-small-files/" data-day="10" style="--i:10" title="Day 10: The small files problem" aria-label="Day 10: The small files problem"></a></span><span class="dd-shelf-group"><a class="dd-box is-live" href="days/day-11-columnar-formats/" data-day="11" style="--i:11" title="Day 11: Columnar formats" aria-label="Day 11: Columnar formats"></a><a class="dd-box is-live" href="days/day-12-compaction/" data-day="12" style="--i:12" title="Day 12: Compaction" aria-label="Day 12: Compaction"></a><a class="dd-box is-live" href="days/day-13-partitioning/" data-day="13" style="--i:13" title="Day 13: Partitioning" aria-label="Day 13: Partitioning"></a><a class="dd-box is-live" href="days/day-14-clustering/" data-day="14" style="--i:14" title="Day 14: Clustering &amp; Z-ordering" aria-label="Day 14: Clustering &amp; Z-ordering"></a><a class="dd-box is-live" href="days/day-15-medallion/" data-day="15" style="--i:15" title="Day 15: Medallion architecture" aria-label="Day 15: Medallion architecture"></a><a class="dd-box is-live" href="days/day-16-acid-tables/" data-day="16" style="--i:16" title="Day 16: ACID table formats" aria-label="Day 16: ACID table formats"></a><a class="dd-box is-live" href="days/day-17-time-travel/" data-day="17" style="--i:17" title="Day 17: Time travel" aria-label="Day 17: Time travel"></a><a class="dd-box is-live" href="days/day-18-retention-vacuum/" data-day="18" style="--i:18" title="Day 18: Retention &amp; VACUUM" aria-label="Day 18: Retention &amp; VACUUM"></a><a class="dd-box is-live" href="days/day-19-compression-codecs/" data-day="19" style="--i:19" title="Day 19: Snappy vs ZSTD" aria-label="Day 19: Snappy vs ZSTD"></a><a class="dd-box is-live" href="days/day-20-table-formats/" data-day="20" style="--i:20" title="Day 20: Delta vs Iceberg vs Hudi" aria-label="Day 20: Delta vs Iceberg vs Hudi"></a></span><span class="dd-shelf-group"><a class="dd-box is-live is-latest" href="days/day-21-distributed-processing/" data-day="21" style="--i:21" title="Day 21: Distributed processing (Spark)" aria-label="Day 21: Distributed processing (Spark)"></a><span class="dd-box" data-day="22" style="--i:22" title="Day 22: coming soon"></span><span class="dd-box" data-day="23" style="--i:23" title="Day 23: coming soon"></span><span class="dd-box" data-day="24" style="--i:24" title="Day 24: coming soon"></span><span class="dd-box" data-day="25" style="--i:25" title="Day 25: coming soon"></span><span class="dd-box" data-day="26" style="--i:26" title="Day 26: coming soon"></span><span class="dd-box" data-day="27" style="--i:27" title="Day 27: coming soon"></span><span class="dd-box" data-day="28" style="--i:28" title="Day 28: coming soon"></span><span class="dd-box" data-day="29" style="--i:29" title="Day 29: coming soon"></span><span class="dd-box" data-day="30" style="--i:30" title="Day 30: coming soon"></span></span><span class="dd-shelf-group"><span class="dd-box" data-day="31" style="--i:31" title="Day 31: coming soon"></span><span class="dd-box" data-day="32" style="--i:32" title="Day 32: coming soon"></span><span class="dd-box" data-day="33" style="--i:33" title="Day 33: coming soon"></span><span class="dd-box" data-day="34" style="--i:34" title="Day 34: coming soon"></span><span class="dd-box" data-day="35" style="--i:35" title="Day 35: coming soon"></span><span class="dd-box" data-day="36" style="--i:36" title="Day 36: coming soon"></span><span class="dd-box" data-day="37" style="--i:37" title="Day 37: coming soon"></span><span class="dd-box" data-day="38" style="--i:38" title="Day 38: coming soon"></span><span class="dd-box" data-day="39" style="--i:39" title="Day 39: coming soon"></span><span class="dd-box" data-day="40" style="--i:40" title="Day 40: coming soon"></span></span><span class="dd-shelf-group"><span class="dd-box" data-day="41" style="--i:41" title="Day 41: coming soon"></span><span class="dd-box" data-day="42" style="--i:42" title="Day 42: coming soon"></span><span class="dd-box" data-day="43" style="--i:43" title="Day 43: coming soon"></span><span class="dd-box" data-day="44" style="--i:44" title="Day 44: coming soon"></span><span class="dd-box" data-day="45" style="--i:45" title="Day 45: coming soon"></span><span class="dd-box" data-day="46" style="--i:46" title="Day 46: coming soon"></span><span class="dd-box" data-day="47" style="--i:47" title="Day 47: coming soon"></span><span class="dd-box" data-day="48" style="--i:48" title="Day 48: coming soon"></span><span class="dd-box" data-day="49" style="--i:49" title="Day 49: coming soon"></span><span class="dd-box" data-day="50" style="--i:50" title="Day 50: coming soon"></span></span><span class="dd-shelf-group"><span class="dd-box" data-day="51" style="--i:51" title="Day 51: coming soon"></span><span class="dd-box" data-day="52" style="--i:52" title="Day 52: coming soon"></span><span class="dd-box" data-day="53" style="--i:53" title="Day 53: coming soon"></span><span class="dd-box" data-day="54" style="--i:54" title="Day 54: coming soon"></span><span class="dd-box" data-day="55" style="--i:55" title="Day 55: coming soon"></span><span class="dd-box" data-day="56" style="--i:56" title="Day 56: coming soon"></span><span class="dd-box" data-day="57" style="--i:57" title="Day 57: coming soon"></span><span class="dd-box" data-day="58" style="--i:58" title="Day 58: coming soon"></span><span class="dd-box" data-day="59" style="--i:59" title="Day 59: coming soon"></span><span class="dd-box" data-day="60" style="--i:60" title="Day 60: coming soon"></span></span><span class="dd-shelf-group"><span class="dd-box" data-day="61" style="--i:61" title="Day 61: coming soon"></span><span class="dd-box" data-day="62" style="--i:62" title="Day 62: coming soon"></span><span class="dd-box" data-day="63" style="--i:63" title="Day 63: coming soon"></span><span class="dd-box" data-day="64" style="--i:64" title="Day 64: coming soon"></span><span class="dd-box" data-day="65" style="--i:65" title="Day 65: coming soon"></span><span class="dd-box" data-day="66" style="--i:66" title="Day 66: coming soon"></span><span class="dd-box" data-day="67" style="--i:67" title="Day 67: coming soon"></span><span class="dd-box" data-day="68" style="--i:68" title="Day 68: coming soon"></span><span class="dd-box" data-day="69" style="--i:69" title="Day 69: coming soon"></span><span class="dd-box" data-day="70" style="--i:70" title="Day 70: coming soon"></span></span><span class="dd-shelf-group"><span class="dd-box" data-day="71" style="--i:71" title="Day 71: coming soon"></span><span class="dd-box" data-day="72" style="--i:72" title="Day 72: coming soon"></span><span class="dd-box" data-day="73" style="--i:73" title="Day 73: coming soon"></span><span class="dd-box" data-day="74" style="--i:74" title="Day 74: coming soon"></span><span class="dd-box" data-day="75" style="--i:75" title="Day 75: coming soon"></span><span class="dd-box" data-day="76" style="--i:76" title="Day 76: coming soon"></span><span class="dd-box" data-day="77" style="--i:77" title="Day 77: coming soon"></span><span class="dd-box" data-day="78" style="--i:78" title="Day 78: coming soon"></span><span class="dd-box" data-day="79" style="--i:79" title="Day 79: coming soon"></span><span class="dd-box" data-day="80" style="--i:80" title="Day 80: coming soon"></span></span><span class="dd-shelf-group"><span class="dd-box" data-day="81" style="--i:81" title="Day 81: coming soon"></span><span class="dd-box" data-day="82" style="--i:82" title="Day 82: coming soon"></span><span class="dd-box" data-day="83" style="--i:83" title="Day 83: coming soon"></span><span class="dd-box" data-day="84" style="--i:84" title="Day 84: coming soon"></span><span class="dd-box" data-day="85" style="--i:85" title="Day 85: coming soon"></span><span class="dd-box" data-day="86" style="--i:86" title="Day 86: coming soon"></span><span class="dd-box" data-day="87" style="--i:87" title="Day 87: coming soon"></span><span class="dd-box" data-day="88" style="--i:88" title="Day 88: coming soon"></span><span class="dd-box" data-day="89" style="--i:89" title="Day 89: coming soon"></span><span class="dd-box" data-day="90" style="--i:90" title="Day 90: coming soon"></span></span><span class="dd-shelf-group"><span class="dd-box" data-day="91" style="--i:91" title="Day 91: coming soon"></span><span class="dd-box" data-day="92" style="--i:92" title="Day 92: coming soon"></span><span class="dd-box" data-day="93" style="--i:93" title="Day 93: coming soon"></span><span class="dd-box" data-day="94" style="--i:94" title="Day 94: coming soon"></span><span class="dd-box" data-day="95" style="--i:95" title="Day 95: coming soon"></span><span class="dd-box" data-day="96" style="--i:96" title="Day 96: coming soon"></span><span class="dd-box" data-day="97" style="--i:97" title="Day 97: coming soon"></span><span class="dd-box" data-day="98" style="--i:98" title="Day 98: coming soon"></span><span class="dd-box" data-day="99" style="--i:99" title="Day 99: coming soon"></span><span class="dd-box" data-day="100" style="--i:100" title="Day 100: coming soon"></span></span></div>
+<div class="dd-shelf-legend"><span><i class="is-live"></i>Published</span><span><i class="is-read"></i>You've read it</span><span><i></i>Coming up</span></div>
 </div>
 
-## How it works
+<ol class="dd-steps">
+<li><strong>Watch the 60-second story</strong> on Instagram or YouTube. A shop, a problem, no jargon.</li>
+<li><strong>Read the real version</strong> here: why it happens, each fix, trade-offs and interview questions.</li>
+<li><strong>Run the code</strong> on a tiny dataset and watch the numbers change on your laptop.</li>
+</ol>
 
-<div class="dd-grid3" markdown>
-<div class="dd-card" markdown>
-<span class="dd-num">1</span>
-### Watch 60 seconds
-A short story on Instagram or YouTube Shorts. No jargon, just a shop, a notebook and a problem.
-</div>
-<div class="dd-card" markdown>
-<span class="dd-num">2</span>
-### Read the real version
-The same problem in proper data engineering terms: why it happens, each fix, trade-offs and interview questions.
-</div>
-<div class="dd-card" markdown>
-<span class="dd-num">3</span>
-### Run the code
-PySpark, SQL and dbt examples on a tiny sample dataset. Watch the numbers change on your own laptop.
-</div>
-</div>
+<h2 id="episodes">Episodes</h2>
 
-## Episodes
-
-<div class="dd-episodes" markdown>
-<a class="dd-ep" href="days/day-01-late-arriving-data/">
-  <span class="dd-ep-day">DAY 1</span>
-  <span class="dd-ep-title">Why Raju's sales were wrong</span>
-  <span class="dd-ep-sub">Late-arriving data</span>
-  <span class="dd-tags"><span>event time</span><span>watermark</span><span>reprocessing</span></span>
-</a>
-<a class="dd-ep" href="days/day-02-duplicate-data/">
-  <span class="dd-ep-day">DAY 2</span>
-  <span class="dd-ep-title">Why Raju's sales were too high</span>
-  <span class="dd-ep-sub">Duplicate data</span>
-  <span class="dd-tags"><span>unique ID</span><span>deduplication</span><span>idempotent write</span></span>
-</a>
-<a class="dd-ep" href="days/day-03-out-of-order-data/">
-  <span class="dd-ep-day">DAY 3</span>
-  <span class="dd-ep-title">Why Raju lost ₹300 on one order</span>
-  <span class="dd-ep-sub">Out-of-order data</span>
-  <span class="dd-tags"><span>event time</span><span>sequence number</span><span>latest version wins</span></span>
-</a>
-<a class="dd-ep" href="days/day-04-incremental-loads/">
-  <span class="dd-ep-day">DAY 4</span>
-  <span class="dd-ep-title">Why Raju's shop opened late</span>
-  <span class="dd-ep-sub">Incremental loads</span>
-  <span class="dd-tags"><span>high-water mark</span><span>incremental load</span><span>lookback window</span></span>
-</a>
-<a class="dd-ep" href="days/day-05-change-data-capture/">
-  <span class="dd-ep-day">DAY 5</span>
-  <span class="dd-ep-title">Why Raju lost ₹1,200 on one price</span>
-  <span class="dd-ep-sub">Change Data Capture</span>
-  <span class="dd-tags"><span>change log</span><span>CDC</span><span>checkpoint</span></span>
-</a>
-<a class="dd-ep" href="days/day-06-soft-deletes/">
-  <span class="dd-ep-day">DAY 6</span>
-  <span class="dd-ep-title">Why Raju paid tax on a cancelled order</span>
-  <span class="dd-ep-sub">Soft deletes &amp; tombstones</span>
-  <span class="dd-tags"><span>soft delete</span><span>tombstone</span><span>filtered view</span></span>
-</a>
-<a class="dd-ep" href="days/day-07-rate-limits/">
-  <span class="dd-ep-day">DAY 7</span>
-  <span class="dd-ep-title">Why Raju lost a ₹50,000 order</span>
-  <span class="dd-ep-sub">Rate limits &amp; backoff</span>
-  <span class="dd-tags"><span>rate limit</span><span>exponential backoff</span><span>pagination</span></span>
-</a>
-<a class="dd-ep" href="days/day-08-partial-reads/">
-  <span class="dd-ep-day">DAY 8</span>
-  <span class="dd-ep-title">Why the Diwali boxes were empty</span>
-  <span class="dd-ep-sub">Partial reads</span>
-  <span class="dd-tags"><span>atomic rename</span><span>_SUCCESS</span><span>manifest</span></span>
-</a>
-<a class="dd-ep" href="days/day-09-schema-evolution/">
-  <span class="dd-ep-day">DAY 9</span>
-  <span class="dd-ep-title">Why Raju paid ₹1,800, not ₹18,000</span>
-  <span class="dd-ep-sub">Schema drift</span>
-  <span class="dd-tags"><span>read by name</span><span>schema evolution</span><span>data contract</span></span>
-</a>
-<a class="dd-ep" href="days/day-10-small-files/">
-  <span class="dd-ep-day">DAY 10</span>
-  <span class="dd-ep-title">Why Raju's son ran 2,000 times</span>
-  <span class="dd-ep-sub">The small files problem</span>
-  <span class="dd-tags"><span>file notification</span><span>micro-batching</span><span>batch trigger</span></span>
-</a>
-<a class="dd-ep" href="days/day-11-columnar-formats/">
-  <span class="dd-ep-day">DAY 11</span>
-  <span class="dd-ep-title">Why Raju read 10,000 bills for 1 column</span>
-  <span class="dd-ep-sub">Columnar formats</span>
-  <span class="dd-tags"><span>Parquet</span><span>compression</span><span>predicate pushdown</span></span>
-</a>
-<a class="dd-ep" href="days/day-12-compaction/">
-  <span class="dd-ep-day">DAY 12</span>
-  <span class="dd-ep-title">Why Raju lost a ₹2 lakh wedding order</span>
-  <span class="dd-ep-sub">Compaction</span>
-  <span class="dd-tags"><span>OPTIMIZE</span><span>optimized writes</span><span>auto compaction</span></span>
-</a>
-<a class="dd-ep" href="days/day-13-partitioning/">
-  <span class="dd-ep-day">DAY 13</span>
-  <span class="dd-ep-title">Why Raju needed 10,000 drawers for sugar</span>
-  <span class="dd-ep-sub">Partitioning</span>
-  <span class="dd-tags"><span>partition key</span><span>pruning</span><span>clustering</span></span>
-</a>
-<a class="dd-ep" href="days/day-14-clustering/">
-  <span class="dd-ep-day">DAY 14</span>
-  <span class="dd-ep-title">Why Raju read 6,000 bills to find one customer</span>
-  <span class="dd-ep-sub">Clustering & Z-ordering</span>
-  <span class="dd-tags"><span>data skipping</span><span>clustering</span><span>Z-order</span></span>
-</a>
-<a class="dd-ep" href="days/day-15-medallion/">
-  <span class="dd-ep-day">DAY 15</span>
-  <span class="dd-ep-title">Data swamp: 500 kg on screen, 50 in stock</span>
-  <span class="dd-ep-sub">Medallion architecture</span>
-  <span class="dd-tags"><span>bronze</span><span>silver</span><span>gold</span></span>
-</a>
-<a class="dd-ep" href="days/day-16-acid-tables/">
-  <span class="dd-ep-day">DAY 16</span>
-  <span class="dd-ep-title">Paisa kat gaya, ticket nahi mila</span>
-  <span class="dd-ep-sub">ACID table formats</span>
-  <span class="dd-tags"><span>atomic commit</span><span>optimistic concurrency</span><span>snapshot isolation</span></span>
-</a>
-<a class="dd-ep" href="days/day-17-time-travel/">
-  <span class="dd-ep-day">DAY 17</span>
-  <span class="dd-ep-title">One wrong UPDATE, 6 months gone</span>
-  <span class="dd-ep-sub">Time travel</span>
-  <span class="dd-tags"><span>history</span><span>time travel</span><span>restore</span></span>
-</a>
-<a class="dd-ep" href="days/day-18-retention-vacuum/">
-  <span class="dd-ep-day">DAY 18</span>
-  <span class="dd-ep-title">₹15,000 a month, for garbage</span>
-  <span class="dd-ep-sub">Retention & VACUUM</span>
-  <span class="dd-tags"><span>VACUUM</span><span>retention</span><span>cold tier</span></span>
-</a>
-<a class="dd-ep" href="days/day-19-compression-codecs/">
-  <span class="dd-ep-day">DAY 19</span>
-  <span class="dd-ep-title">Stock right there, couldn't sell it</span>
-  <span class="dd-ep-sub">Snappy vs ZSTD</span>
-  <span class="dd-tags"><span>Snappy</span><span>ZSTD</span><span>benchmark</span></span>
-</a>
-<a class="dd-ep" href="days/day-20-table-formats/">
-  <span class="dd-ep-day">DAY 20</span>
-  <span class="dd-ep-title">Bought the "best", nothing talks to it</span>
-  <span class="dd-ep-sub">Delta vs Iceberg vs Hudi</span>
-  <span class="dd-tags"><span>Delta Lake</span><span>Iceberg</span><span>Hudi</span></span>
-</a>
-<div class="dd-ep dd-ep-soon">
-  <span class="dd-ep-day">DAY 21</span>
-  <span class="dd-ep-title">Splitting exam papers among teachers</span>
-  <span class="dd-ep-sub">Distributed processing (Spark) · coming soon</span>
+<div class="dd-finder">
+<label class="dd-search"><span class="dd-sr">Search episodes</span>
+<input type="search" placeholder="Search a topic, like shuffle, CDC or partitions" autocomplete="off"></label>
+<div class="dd-chips" role="group" aria-label="Filter by module"><button class="dd-chip is-on" data-filter="all">All</button><button class="dd-chip" data-filter="0">How data arrives</button><button class="dd-chip" data-filter="1">Storing data</button><button class="dd-chip" data-filter="2">Big batch processing</button></div>
 </div>
+<p class="dd-empty" hidden>No episode matches that yet. Try a broader word, or browse all.</p>
+
+<div class="dd-ledger-wrap">
+<section class="dd-module" data-module="0">
+<h3 class="dd-module-name"><span>Days 1–10</span> How data arrives</h3>
+<ol class="dd-ledger">
+<li class="dd-row" data-day="1" data-search="1 why raju&#x27;s sales were wrong late-arriving data event time watermark reprocessing"><a href="days/day-01-late-arriving-data/"><span class="dd-row-day">1</span><span class="dd-row-main"><span class="dd-row-topic">Late-arriving data</span><span class="dd-row-title">Why Raju&#x27;s sales were wrong</span></span><span class="dd-row-tags"><span>event time</span><span>watermark</span><span>reprocessing</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="2" data-search="2 why raju&#x27;s sales were too high duplicate data unique id deduplication idempotent write"><a href="days/day-02-duplicate-data/"><span class="dd-row-day">2</span><span class="dd-row-main"><span class="dd-row-topic">Duplicate data</span><span class="dd-row-title">Why Raju&#x27;s sales were too high</span></span><span class="dd-row-tags"><span>unique ID</span><span>deduplication</span><span>idempotent write</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="3" data-search="3 why raju lost ₹300 on one order out-of-order data event time sequence number latest version wins"><a href="days/day-03-out-of-order-data/"><span class="dd-row-day">3</span><span class="dd-row-main"><span class="dd-row-topic">Out-of-order data</span><span class="dd-row-title">Why Raju lost ₹300 on one order</span></span><span class="dd-row-tags"><span>event time</span><span>sequence number</span><span>latest version wins</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="4" data-search="4 why raju&#x27;s shop opened late incremental loads high-water mark incremental load lookback window"><a href="days/day-04-incremental-loads/"><span class="dd-row-day">4</span><span class="dd-row-main"><span class="dd-row-topic">Incremental loads</span><span class="dd-row-title">Why Raju&#x27;s shop opened late</span></span><span class="dd-row-tags"><span>high-water mark</span><span>incremental load</span><span>lookback window</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="5" data-search="5 why raju lost ₹1,200 on one price change data capture change log cdc checkpoint"><a href="days/day-05-change-data-capture/"><span class="dd-row-day">5</span><span class="dd-row-main"><span class="dd-row-topic">Change Data Capture</span><span class="dd-row-title">Why Raju lost ₹1,200 on one price</span></span><span class="dd-row-tags"><span>change log</span><span>CDC</span><span>checkpoint</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="6" data-search="6 why raju paid tax on a cancelled order soft deletes &amp; tombstones soft delete tombstone filtered view"><a href="days/day-06-soft-deletes/"><span class="dd-row-day">6</span><span class="dd-row-main"><span class="dd-row-topic">Soft deletes &amp; tombstones</span><span class="dd-row-title">Why Raju paid tax on a cancelled order</span></span><span class="dd-row-tags"><span>soft delete</span><span>tombstone</span><span>filtered view</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="7" data-search="7 why raju lost a ₹50,000 order rate limits &amp; backoff rate limit exponential backoff pagination"><a href="days/day-07-rate-limits/"><span class="dd-row-day">7</span><span class="dd-row-main"><span class="dd-row-topic">Rate limits &amp; backoff</span><span class="dd-row-title">Why Raju lost a ₹50,000 order</span></span><span class="dd-row-tags"><span>rate limit</span><span>exponential backoff</span><span>pagination</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="8" data-search="8 why the diwali boxes were empty partial reads atomic rename _success manifest"><a href="days/day-08-partial-reads/"><span class="dd-row-day">8</span><span class="dd-row-main"><span class="dd-row-topic">Partial reads</span><span class="dd-row-title">Why the Diwali boxes were empty</span></span><span class="dd-row-tags"><span>atomic rename</span><span>_SUCCESS</span><span>manifest</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="9" data-search="9 why raju paid ₹1,800, not ₹18,000 schema drift read by name schema evolution data contract"><a href="days/day-09-schema-evolution/"><span class="dd-row-day">9</span><span class="dd-row-main"><span class="dd-row-topic">Schema drift</span><span class="dd-row-title">Why Raju paid ₹1,800, not ₹18,000</span></span><span class="dd-row-tags"><span>read by name</span><span>schema evolution</span><span>data contract</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="10" data-search="10 why raju&#x27;s son ran 2,000 times the small files problem file notification micro-batching batch trigger"><a href="days/day-10-small-files/"><span class="dd-row-day">10</span><span class="dd-row-main"><span class="dd-row-topic">The small files problem</span><span class="dd-row-title">Why Raju&#x27;s son ran 2,000 times</span></span><span class="dd-row-tags"><span>file notification</span><span>micro-batching</span><span>batch trigger</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+</ol></section>
+<section class="dd-module" data-module="1">
+<h3 class="dd-module-name"><span>Days 11–20</span> Storing data</h3>
+<ol class="dd-ledger">
+<li class="dd-row" data-day="11" data-search="11 why raju read 10,000 bills for 1 column columnar formats parquet compression predicate pushdown"><a href="days/day-11-columnar-formats/"><span class="dd-row-day">11</span><span class="dd-row-main"><span class="dd-row-topic">Columnar formats</span><span class="dd-row-title">Why Raju read 10,000 bills for 1 column</span></span><span class="dd-row-tags"><span>Parquet</span><span>compression</span><span>predicate pushdown</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="12" data-search="12 why raju lost a ₹2 lakh wedding order compaction optimize optimized writes auto compaction"><a href="days/day-12-compaction/"><span class="dd-row-day">12</span><span class="dd-row-main"><span class="dd-row-topic">Compaction</span><span class="dd-row-title">Why Raju lost a ₹2 lakh wedding order</span></span><span class="dd-row-tags"><span>OPTIMIZE</span><span>optimized writes</span><span>auto compaction</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="13" data-search="13 why raju needed 10,000 drawers for sugar partitioning partition key pruning clustering"><a href="days/day-13-partitioning/"><span class="dd-row-day">13</span><span class="dd-row-main"><span class="dd-row-topic">Partitioning</span><span class="dd-row-title">Why Raju needed 10,000 drawers for sugar</span></span><span class="dd-row-tags"><span>partition key</span><span>pruning</span><span>clustering</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="14" data-search="14 why raju read 6,000 bills to find one customer clustering &amp; z-ordering data skipping clustering z-order"><a href="days/day-14-clustering/"><span class="dd-row-day">14</span><span class="dd-row-main"><span class="dd-row-topic">Clustering &amp; Z-ordering</span><span class="dd-row-title">Why Raju read 6,000 bills to find one customer</span></span><span class="dd-row-tags"><span>data skipping</span><span>clustering</span><span>Z-order</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="15" data-search="15 data swamp: 500 kg on screen, 50 in stock medallion architecture bronze silver gold"><a href="days/day-15-medallion/"><span class="dd-row-day">15</span><span class="dd-row-main"><span class="dd-row-topic">Medallion architecture</span><span class="dd-row-title">Data swamp: 500 kg on screen, 50 in stock</span></span><span class="dd-row-tags"><span>bronze</span><span>silver</span><span>gold</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="16" data-search="16 paisa kat gaya, ticket nahi mila acid table formats atomic commit optimistic concurrency snapshot isolation"><a href="days/day-16-acid-tables/"><span class="dd-row-day">16</span><span class="dd-row-main"><span class="dd-row-topic">ACID table formats</span><span class="dd-row-title">Paisa kat gaya, ticket nahi mila</span></span><span class="dd-row-tags"><span>atomic commit</span><span>optimistic concurrency</span><span>snapshot isolation</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="17" data-search="17 one wrong update, 6 months gone time travel history time travel restore"><a href="days/day-17-time-travel/"><span class="dd-row-day">17</span><span class="dd-row-main"><span class="dd-row-topic">Time travel</span><span class="dd-row-title">One wrong UPDATE, 6 months gone</span></span><span class="dd-row-tags"><span>history</span><span>time travel</span><span>restore</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="18" data-search="18 ₹15,000 a month, for garbage retention &amp; vacuum vacuum retention cold tier"><a href="days/day-18-retention-vacuum/"><span class="dd-row-day">18</span><span class="dd-row-main"><span class="dd-row-topic">Retention &amp; VACUUM</span><span class="dd-row-title">₹15,000 a month, for garbage</span></span><span class="dd-row-tags"><span>VACUUM</span><span>retention</span><span>cold tier</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="19" data-search="19 stock right there, couldn&#x27;t sell it snappy vs zstd snappy zstd benchmark"><a href="days/day-19-compression-codecs/"><span class="dd-row-day">19</span><span class="dd-row-main"><span class="dd-row-topic">Snappy vs ZSTD</span><span class="dd-row-title">Stock right there, couldn&#x27;t sell it</span></span><span class="dd-row-tags"><span>Snappy</span><span>ZSTD</span><span>benchmark</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row" data-day="20" data-search="20 bought the &quot;best&quot;, nothing talks to it delta vs iceberg vs hudi delta lake iceberg hudi"><a href="days/day-20-table-formats/"><span class="dd-row-day">20</span><span class="dd-row-main"><span class="dd-row-topic">Delta vs Iceberg vs Hudi</span><span class="dd-row-title">Bought the &quot;best&quot;, nothing talks to it</span></span><span class="dd-row-tags"><span>Delta Lake</span><span>Iceberg</span><span>Hudi</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+</ol></section>
+<section class="dd-module" data-module="2">
+<h3 class="dd-module-name"><span>Days 21–30</span> Big batch processing</h3>
+<ol class="dd-ledger">
+<li class="dd-row" data-day="21" data-search="21 &quot;buy a bigger machine?&quot; rejected. distributed processing (spark) partitions driver executors shuffle"><a href="days/day-21-distributed-processing/"><span class="dd-row-day">21</span><span class="dd-row-main"><span class="dd-row-topic">Distributed processing (Spark)</span><span class="dd-row-title">&quot;Buy a bigger machine?&quot; Rejected.</span></span><span class="dd-row-tags"><span>partitions</span><span>driver</span><span>executors</span><span>shuffle</span></span><span class="dd-row-done" aria-label="Read">✓</span></a></li>
+<li class="dd-row is-soon" data-day="22" data-search="22 one worker gets most of the work data skew: salting and aqe"><div><span class="dd-row-day">22</span><span class="dd-row-main"><span class="dd-row-topic">Data skew: salting and AQE</span><span class="dd-row-title">Coming tomorrow: One worker gets most of the work</span></span></div></li>
+</ol></section>
 </div>
 
-## The 100-day path
+<h2>The 100-day path</h2>
 
-<div class="dd-modules">
-  <div><b>1–10</b> How data arrives</div>
-  <div><b>11–20</b> Storing data</div>
-  <div><b>21–30</b> Big batch processing</div>
-  <div><b>31–40</b> Real-time streaming</div>
-  <div><b>41–50</b> Scheduling &amp; reliability</div>
-  <div><b>51–60</b> Data quality &amp; trust</div>
-  <div><b>61–70</b> Data modeling</div>
-  <div><b>71–80</b> Speed &amp; cost</div>
-  <div><b>81–90</b> Security &amp; governance</div>
-  <div><b>91–100</b> End-to-end designs</div>
-</div>
+<ol class="dd-road">
+<li class="is-done"><span class="dd-road-range">Days 1–10</span><span class="dd-road-name">How data arrives</span><span class="dd-road-state">Complete</span></li>
+<li class="is-done"><span class="dd-road-range">Days 11–20</span><span class="dd-road-name">Storing data</span><span class="dd-road-state">Complete</span></li>
+<li class="is-now"><span class="dd-road-range">Days 21–30</span><span class="dd-road-name">Big batch processing</span><span class="dd-road-state">1 of 10 out</span></li>
+<li class="is-later"><span class="dd-road-range">Days 31–40</span><span class="dd-road-name">Real-time streaming</span><span class="dd-road-state">Coming up</span></li>
+<li class="is-later"><span class="dd-road-range">Days 41–50</span><span class="dd-road-name">Scheduling &amp; reliability</span><span class="dd-road-state">Coming up</span></li>
+<li class="is-later"><span class="dd-road-range">Days 51–60</span><span class="dd-road-name">Data quality &amp; trust</span><span class="dd-road-state">Coming up</span></li>
+<li class="is-later"><span class="dd-road-range">Days 61–70</span><span class="dd-road-name">Data modeling</span><span class="dd-road-state">Coming up</span></li>
+<li class="is-later"><span class="dd-road-range">Days 71–80</span><span class="dd-road-name">Speed &amp; cost</span><span class="dd-road-state">Coming up</span></li>
+<li class="is-later"><span class="dd-road-range">Days 81–90</span><span class="dd-road-name">Security &amp; governance</span><span class="dd-road-state">Coming up</span></li>
+<li class="is-later"><span class="dd-road-range">Days 91–100</span><span class="dd-road-name">End-to-end designs</span><span class="dd-road-state">Coming up</span></li>
+</ol>
 
-## Who it's for
+<h2>Who it's for</h2>
 
-<div class="dd-grid4">
-  <div class="dd-chip-card">🎓 Students exploring data careers</div>
-  <div class="dd-chip-card">🔁 Career switchers</div>
-  <div class="dd-chip-card">🎯 Interview preparation</div>
-  <div class="dd-chip-card">💡 Anyone curious how apps work</div>
-</div>
+<ul class="dd-who">
+<li><strong>Students</strong> deciding whether data engineering is for them.</li>
+<li><strong>Career switchers</strong> who want the ideas before the tools.</li>
+<li><strong>Interview prep</strong>: every day ends with real interview questions.</li>
+<li><strong>Anyone curious</strong> how the apps on their phone keep their numbers right.</li>
+</ul>
 
-<div class="dd-about" markdown>
-**Made by Preetam**, a senior data engineer in Mumbai with 5+ years of building data pipelines for large financial companies.
-Follow along on [Instagram](https://instagram.com/datadukaan) and [YouTube](https://youtube.com/@datadukaan). All code is on [GitHub](https://github.com/datadukaan/datadukaan.github.io).
-<br><small>Examples are generic teaching material and don't reflect any employer's systems.</small>
+<div class="dd-about">
+<p><strong>Made by Preetam</strong>, a senior data engineer in Mumbai with 5+ years of building data pipelines for large financial companies. Follow along on <a href="https://instagram.com/datadukaan">Instagram</a> and <a href="https://youtube.com/@datadukaan">YouTube</a>. All code is on <a href="https://github.com/datadukaan/datadukaan.github.io">GitHub</a>.</p>
+<p class="dd-small">Examples are generic teaching material and don't reflect any employer's systems.</p>
 </div>

@@ -1,3 +1,8 @@
+---
+day: 3
+module: "How data arrives"
+topic: "Out-of-order data"
+---
 # Day 3 · Out-of-order data
 
 !!! abstract "In one line"
